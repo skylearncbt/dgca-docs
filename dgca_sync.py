@@ -23,6 +23,23 @@ DGCA_PAGES = {
     "CAR_Series_M_Maintenance"          : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=civilAviationRequirements/8/0/viewDynamicRulesReq",
     "CAARPs"                            : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=caarps/0/0/viewDynamicRulesReq",
     "Air_Safety_Circulars"              : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=airSafetyCircular/0/0/viewDynamicRulesReq",
+    "Aircraft_Act_1934"                 : "https://www.dgca.gov.in/digigov-portal/?page=legislationPage/acts/0/1/11/0/docsView",
+    "Aircraft_Rules_1937"               : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=aircraftRules1937/0/0/viewDynamicRulesReq",
+    "Aircraft_Rules_All"                : "https://www.dgca.gov.in/digigov-portal/?page=legislationPage/rules/0/2/12/0/docsView",
+    "Drone_Rules"                       : "https://www.dgca.gov.in/digigov-portal/?page=legislationPage/droneRules/0/3/13/0/docsView",
+    "Manuals_and_Procedures"            : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=manualsAndProcedures/0/0/viewDynamicRulesReq",
+    "Organisation_Manual"               : "https://www.dgca.gov.in/digigov-portal/?page=aboutDGCA/organisation/organisationManual/0/4/14/0/docsView",
+    "Aeronautical_Information_Circulars": "https://www.dgca.gov.in/digigov-portal/?dynamicPage=aeronauticalInformationCirculars/0/0/viewDynamicRulesReq",
+    "Circulars_Flight_Crew_Training"    : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularFlightCrewTraining/0/0/viewDynamicRulesReq",
+    "Circulars_Aircraft_Operations"     : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularAircraftOperations/0/0/viewDynamicRulesReq",
+    "Circulars_Airworthiness"           : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularAirworthiness/0/0/viewDynamicRulesReq",
+    "Circulars_Flight_Crew_Licensing"   : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularFlightCrewLicensing/0/0/viewDynamicRulesReq",
+    "Circulars_Aircraft_Engineering"    : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularAircraftEngineering/0/0/viewDynamicRulesReq",
+    "Circulars_Aerodromes"              : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularAerodromes/0/0/viewDynamicRulesReq",
+    "Circulars_Safety"                  : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularAircraftSafety/0/0/viewDynamicRulesReq",
+    "Circulars_Medical"                 : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularMedical/0/0/viewDynamicRulesReq",
+    "Circulars_Dangerous_Goods"         : "https://www.dgca.gov.in/digigov-portal/?dynamicPage=circularDangerousGoods/0/0/viewDynamicRulesReq",
+    "AOC_Package"                       : "https://www.dgca.gov.in/digigov-portal/?page=airOperations/certification/aocPackage/0/5/15/0/docsView",
 }
 
 logging.basicConfig(
