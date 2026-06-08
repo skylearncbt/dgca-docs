@@ -3,6 +3,7 @@ import os, sys, json, hashlib, re, logging, argparse, time
 from pathlib import Path
 from datetime import datetime
 import requests, schedule, git
+from datetime import datetime, timezone
 from playwright.sync_api import sync_playwright
 
 REPO_DIR  = Path(__file__).parent
@@ -142,7 +143,7 @@ def git_push(changed):
         if not repo.is_dirty(untracked_files=True):
             log.info("Git: nothing to commit")
             return
-        ts  = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+        ts  = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         msg = f"Auto-sync {ts}: {len(changed)} file(s) updated"
         repo.index.commit(msg)
         origin = repo.remote("origin")
@@ -155,7 +156,7 @@ def git_push(changed):
 
 def run_sync():
     log.info("="*60)
-    log.info(f"DGCA SYNC  {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
+    log.info(f"DGCA SYNC  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     log.info("="*60)
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     hashes = load_hashes()
